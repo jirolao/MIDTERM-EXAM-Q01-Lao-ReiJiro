@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "requester": "Sam",
+    "location": "Room 1",
+    "problem": "Leaky tap",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": "1793010891209",
+    "requester": "rei",
+    "location": "madndaue",
+    "problem": "nopthing",
+    "priority": "Low",
+    "status": "Pending"
+  },
+  {
+    "id": "1793011404833",
+    "requester": "Lao",
+    "location": "Bohol",
+    "problem": "Shoes",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": "1793011411497",
+    "requester": "Lao",
+    "location": "Choco",
+    "problem": "Shoes",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": "1793011413279",
+    "requester": "Lao",
+    "location": "Choco",
+    "problem": "Shoes",
+    "priority": "Low",
+    "status": "Pending"
+  }
+]

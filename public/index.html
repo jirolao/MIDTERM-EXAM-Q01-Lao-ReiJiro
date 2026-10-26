@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maintenance</title>
+  <style>
+    .high-priority { background: #ffcccc; border: 2px solid red; }
+    li { padding: 8px; margin: 4px; list-style: none; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Maintenance System</h1>
+
+  <h3>Add Request</h3>
+  <input id="req" placeholder="Name">
+  <input id="loc" placeholder="Location">
+  <input id="prob" placeholder="Problem">
+  <select id="prio">
+    <option value="Low">Low</option>
+    <option value="High">High</option>
+  </select>
+  <button id="addBtn">Submit</button>
+
+  <h3>Search / Delete by ID</h3>
+  <input id="searchId" placeholder="ID">
+  <button id="searchBtn">Search</button>
+  <button id="deleteBtn">Delete</button>
+  <pre id="result"></pre>
+
+  <h3>All Requests</h3>
+  <button id="refreshBtn">Refresh</button>
+  <ul id="list"></ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
